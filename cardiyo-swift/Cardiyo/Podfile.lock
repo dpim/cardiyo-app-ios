@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CameraManager (3.0.0)
+  - DynamicColor (3.2.1)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.16.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.16.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.16.0):
+    - FBSDKCoreKit
+  - GBHFacebookImagePicker (1.0.6):
+    - FBSDKCoreKit (~> 4.16.0)
+    - FBSDKLoginKit (~> 4.16.0)
+  - PopupDialog (0.5.0)
+  - Signals (4.0.0)
+  - SkyFloatingLabelTextField (2.0.0)
+  - SwiftChart (0.5.0)
+  - SwiftyJSON (3.1.3)
+  - SwiftySensors (0.3.2):
+    - Signals (~> 4.0)
+    - SwiftySensors/Serializers (= 0.3.2)
+  - SwiftySensors/Serializers (0.3.2):
+    - Signals (~> 4.0)
+  - TOMSMorphingLabel (0.5.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.1)
+  - CameraManager (~> 3.0)
+  - DynamicColor (~> 3.2.1)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - GBHFacebookImagePicker
+  - PopupDialog (~> 0.5)
+  - SkyFloatingLabelTextField (~> 2.0.0)
+  - SwiftChart
+  - SwiftyJSON
+  - SwiftySensors
+  - TOMSMorphingLabel (~> 0.5)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CameraManager: 8b92bc0ab51b598d9a4c01998bc9f1efb9b681bf
+  DynamicColor: 4786d650c69da6c3f2cbfe068348288ec4e5521f
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  FBSDKLoginKit: 9a514a55a7d05190f64d4ef09502737588b5b561
+  FBSDKShareKit: e81505de17fc0624cbaa87b83cccc9f2a786e6cb
+  GBHFacebookImagePicker: e8bbd1bd2c85f648bd80f52d66edeb2148b6c8ba
+  PopupDialog: 9890441b81105b9076757af2afe2b037be682f3e
+  Signals: 6d818e1b7c39f2bf61cfef30bf314329990d1853
+  SkyFloatingLabelTextField: a81a0eaed2785d1599f11484c6ebc1c4eb5d1228
+  SwiftChart: d1d22d2b1c4582f4d561edf97a210059c00ee256
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  SwiftySensors: 3e4937edcab378092e7da7e3bdc77fdd3a6d8274
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+
+PODFILE CHECKSUM: 661bad9e66eace610844d50b99d789e47b4e9b99
+
+COCOAPODS: 1.2.1

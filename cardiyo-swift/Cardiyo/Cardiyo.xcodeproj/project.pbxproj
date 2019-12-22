@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC2EA551D1803D1AAEA1112 /* Pods_Cardiyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3D94347FDB4F122AB2EA2 /* Pods_Cardiyo.framework */; };
+		6713DE531E1B03960038FE91 /* PersonalHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6713DE521E1B03960038FE91 /* PersonalHistoryViewController.swift */; };
+		6713DE551E1B0E310038FE91 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6713DE541E1B0E310038FE91 /* TextField.swift */; };
+		67178CF41E0B2FB100C6DD14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67178CF31E0B2FB100C6DD14 /* AVFoundation.framework */; };
+		67340E051E146D760075804C /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67340E041E146D760075804C /* CardViewController.swift */; };
+		67340E1F1E148FFF0075804C /* CardTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67340E1E1E148FFF0075804C /* CardTableCellView.swift */; };
+		674565241DAB09BA00EB4C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674565231DAB09BA00EB4C57 /* AppDelegate.swift */; };
+		674565261DAB09BA00EB4C57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674565251DAB09BA00EB4C57 /* LoginViewController.swift */; };
+		674565291DAB09BA00EB4C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674565271DAB09BA00EB4C57 /* Main.storyboard */; };
+		6745652B1DAB09BA00EB4C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6745652A1DAB09BA00EB4C57 /* Assets.xcassets */; };
+		6745652E1DAB09BA00EB4C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6745652C1DAB09BA00EB4C57 /* LaunchScreen.storyboard */; };
+		674565371DAC80EA00EB4C57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674565361DAC80EA00EB4C57 /* MainViewController.swift */; };
+		676381701E33E77100F10673 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381581E33E77100F10673 /* add@2x.png */; };
+		676381711E33E77100F10673 /* card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381591E33E77100F10673 /* card@2x.png */; };
+		676381721E33E77100F10673 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763815A1E33E77100F10673 /* clear.png */; };
+		676381731E33E77100F10673 /* compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763815B1E33E77100F10673 /* compose@2x.png */; };
+		676381741E33E77100F10673 /* doughboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6763815C1E33E77100F10673 /* doughboy.jpg */; };
+		676381761E33E77100F10673 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763815E1E33E77100F10673 /* fb.png */; };
+		676381771E33E77100F10673 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763815F1E33E77100F10673 /* gear@2x.png */; };
+		676381781E33E77100F10673 /* go@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381601E33E77100F10673 /* go@2x.png */; };
+		676381791E33E77100F10673 /* happy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381611E33E77100F10673 /* happy@2x.png */; };
+		6763817A1E33E77100F10673 /* heartempty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381621E33E77100F10673 /* heartempty@2x.png */; };
+		6763817B1E33E77100F10673 /* heartfull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381631E33E77100F10673 /* heartfull@2x.png */; };
+		6763817C1E33E77100F10673 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381641E33E77100F10673 /* home@2x.png */; };
+		6763817D1E33E77100F10673 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381651E33E77100F10673 /* logo.png */; };
+		6763817E1E33E77100F10673 /* msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381661E33E77100F10673 /* msg@2x.png */; };
+		6763817F1E33E77100F10673 /* persona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381671E33E77100F10673 /* persona@2x.png */; };
+		676381801E33E77100F10673 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 676381681E33E77100F10673 /* placeholder.jpg */; };
+		676381811E33E77100F10673 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676381691E33E77100F10673 /* play@2x.png */; };
+		676381821E33E77100F10673 /* save.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6763816A1E33E77100F10673 /* save.jpg */; };
+		676381831E33E77100F10673 /* stack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763816B1E33E77100F10673 /* stack@2x.png */; };
+		676381841E33E77100F10673 /* test_logo_try3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763816C1E33E77100F10673 /* test_logo_try3.png */; };
+		676381851E33E77100F10673 /* test_logo_try3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763816D1E33E77100F10673 /* test_logo_try3@2x.png */; };
+		676381861E33E77100F10673 /* test_logo_try3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763816E1E33E77100F10673 /* test_logo_try3@3x.png */; };
+		676381871E33E77100F10673 /* trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763816F1E33E77100F10673 /* trash@2x.png */; };
+		676381891E33E95300F10673 /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676381881E33E95300F10673 /* ActivityDetailsViewController.swift */; };
+		6763818B1E33EEE700F10673 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763818A1E33EEE700F10673 /* StatsViewController.swift */; };
+		6763818D1E33FE9700F10673 /* LikedByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763818C1E33FE9700F10673 /* LikedByViewController.swift */; };
+		6763818F1E342AA700F10673 /* DetailTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763818E1E342AA700F10673 /* DetailTableCellView.swift */; };
+		676F35541F94185B00E424C3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676F35531F94185B00E424C3 /* CoreBluetooth.framework */; };
+		676F356A1F942A2A00E424C3 /* SensorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F35691F942A2A00E424C3 /* SensorListViewController.swift */; };
+		677B401D1F89544A00B30AD2 /* SplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B401C1F89544A00B30AD2 /* SplitsViewController.swift */; };
+		677B401F1F897F9700B30AD2 /* ChartTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B401E1F897F9700B30AD2 /* ChartTableCellView.swift */; };
+		677F9FFB1DED62160038212E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F9FFA1DED62160038212E /* Location.swift */; };
+		677F9FFD1DED62220038212E /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F9FFC1DED62220038212E /* Run.swift */; };
+		677FA0001DEFF88A0038212E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 677F9FFE1DEFF88A0038212E /* Model.xcdatamodeld */; };
+		677FA0041DF000170038212E /* EndOfRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677FA0031DF000170038212E /* EndOfRunViewController.swift */; };
+		677FA0061DF0033D0038212E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677FA0051DF0033D0038212E /* MapKit.framework */; };
+		67821B581E0B5CC7007B1A05 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67821B571E0B5CC7007B1A05 /* ErrorViewController.swift */; };
+		67A7D20A1E47D66400216B3E /* switchalt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A7D2081E47D66400216B3E /* switchalt@2x.png */; };
+		67A7D20B1E47D66400216B3E /* cancelalt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A7D2091E47D66400216B3E /* cancelalt@2x.png */; };
+		67A7D20D1E47D99C00216B3E /* nextalt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A7D20C1E47D99C00216B3E /* nextalt@2x.png */; };
+		67A7D20F1E47DA6300216B3E /* stackalt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A7D20E1E47DA6300216B3E /* stackalt@2x.png */; };
+		67BE34191E4B7A32005E6C01 /* PatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE34181E4B7A32005E6C01 /* PatternView.swift */; };
+		67BE341B1E4B7A8F005E6C01 /* subtle_white_mini_waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE341A1E4B7A8F005E6C01 /* subtle_white_mini_waves.png */; };
+		67BE341D1E4B7CF5005E6C01 /* ep_naturalwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE341C1E4B7CF5005E6C01 /* ep_naturalwhite.png */; };
+		67BE341F1E4B7E40005E6C01 /* PatternTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE341E1E4B7E40005E6C01 /* PatternTableView.swift */; };
+		67BE34231E4B7FFA005E6C01 /* proceed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE34221E4B7FFA005E6C01 /* proceed@2x.png */; };
+		67BE34271E4C0983005E6C01 /* proceedwhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE34261E4C0983005E6C01 /* proceedwhite@2x.png */; };
+		67BE34291E4C0A89005E6C01 /* nextaltwhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE34281E4C0A89005E6C01 /* nextaltwhite@2x.png */; };
+		67BE342B1E4C0A93005E6C01 /* stopwhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BE342A1E4C0A93005E6C01 /* stopwhite@2x.png */; };
+		67BF716B1DAC8AA900282A14 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF716A1DAC8AA900282A14 /* HistoryViewController.swift */; };
+		67BF716D1DAC8AD600282A14 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF716C1DAC8AD600282A14 /* SettingsViewController.swift */; };
+		67BF716F1DADCCD700282A14 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF716E1DADCCD700282A14 /* CameraViewController.swift */; };
+		67C80BC01E40EC200009E515 /* ImageViewWithGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C80BBF1E40EC200009E515 /* ImageViewWithGradient.swift */; };
+		67C80BC21E4189AE0009E515 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C80BC11E4189AE0009E515 /* AboutViewController.swift */; };
+		67D7C2061E1339AB0068AEF9 /* ActivityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7C2051E1339AB0068AEF9 /* ActivityInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6757ECE02313318800913D0F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EBE0A4B0F6B983B9479E3F1 /* Pods_Cardioh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardioh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B777ED4C9E4F518E169EC /* Pods-Cardioh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardioh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cardioh/Pods-Cardioh.debug.xcconfig"; sourceTree = "<group>"; };
+		56438529F21EBC30422FC5DB /* Pods-Cardiyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardiyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cardiyo/Pods-Cardiyo.debug.xcconfig"; sourceTree = "<group>"; };
+		6713DE521E1B03960038FE91 /* PersonalHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHistoryViewController.swift; sourceTree = "<group>"; };
+		6713DE541E1B0E310038FE91 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		67178CF31E0B2FB100C6DD14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		67340E041E146D760075804C /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		67340E1E1E148FFF0075804C /* CardTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableCellView.swift; sourceTree = "<group>"; };
+		674565201DAB09BA00EB4C57 /* Cardiyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardiyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674565231DAB09BA00EB4C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		674565251DAB09BA00EB4C57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		674565281DAB09BA00EB4C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6745652A1DAB09BA00EB4C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6745652D1DAB09BA00EB4C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6745652F1DAB09BA00EB4C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674565351DAC778A00EB4C57 /* Cardiyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cardiyo.entitlements; sourceTree = "<group>"; };
+		674565361DAC80EA00EB4C57 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		676381581E33E77100F10673 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		676381591E33E77100F10673 /* card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card@2x.png"; sourceTree = "<group>"; };
+		6763815A1E33E77100F10673 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		6763815B1E33E77100F10673 /* compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose@2x.png"; sourceTree = "<group>"; };
+		6763815C1E33E77100F10673 /* doughboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doughboy.jpg; sourceTree = "<group>"; };
+		6763815E1E33E77100F10673 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		6763815F1E33E77100F10673 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		676381601E33E77100F10673 /* go@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go@2x.png"; sourceTree = "<group>"; };
+		676381611E33E77100F10673 /* happy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy@2x.png"; sourceTree = "<group>"; };
+		676381621E33E77100F10673 /* heartempty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heartempty@2x.png"; sourceTree = "<group>"; };
+		676381631E33E77100F10673 /* heartfull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heartfull@2x.png"; sourceTree = "<group>"; };
+		676381641E33E77100F10673 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		676381651E33E77100F10673 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		676381661E33E77100F10673 /* msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg@2x.png"; sourceTree = "<group>"; };
+		676381671E33E77100F10673 /* persona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "persona@2x.png"; sourceTree = "<group>"; };
+		676381681E33E77100F10673 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		676381691E33E77100F10673 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		6763816A1E33E77100F10673 /* save.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = save.jpg; sourceTree = "<group>"; };
+		6763816B1E33E77100F10673 /* stack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack@2x.png"; sourceTree = "<group>"; };
+		6763816C1E33E77100F10673 /* test_logo_try3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_logo_try3.png; sourceTree = "<group>"; };
+		6763816D1E33E77100F10673 /* test_logo_try3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_logo_try3@2x.png"; sourceTree = "<group>"; };
+		6763816E1E33E77100F10673 /* test_logo_try3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_logo_try3@3x.png"; sourceTree = "<group>"; };
+		6763816F1E33E77100F10673 /* trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trash@2x.png"; sourceTree = "<group>"; };
+		676381881E33E95300F10673 /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
+		6763818A1E33EEE700F10673 /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		6763818C1E33FE9700F10673 /* LikedByViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedByViewController.swift; sourceTree = "<group>"; };
+		6763818E1E342AA700F10673 /* DetailTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableCellView.swift; sourceTree = "<group>"; };
+		676F35531F94185B00E424C3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		676F35691F942A2A00E424C3 /* SensorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorListViewController.swift; sourceTree = "<group>"; };
+		677B401C1F89544A00B30AD2 /* SplitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitsViewController.swift; sourceTree = "<group>"; };
+		677B401E1F897F9700B30AD2 /* ChartTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableCellView.swift; sourceTree = "<group>"; };
+		677F9FFA1DED62160038212E /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		677F9FFC1DED62220038212E /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		677F9FFF1DEFF88A0038212E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		677FA0031DF000170038212E /* EndOfRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndOfRunViewController.swift; sourceTree = "<group>"; };
+		677FA0051DF0033D0038212E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67821B571E0B5CC7007B1A05 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		67A7D2081E47D66400216B3E /* switchalt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchalt@2x.png"; sourceTree = "<group>"; };
+		67A7D2091E47D66400216B3E /* cancelalt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelalt@2x.png"; sourceTree = "<group>"; };
+		67A7D20C1E47D99C00216B3E /* nextalt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nextalt@2x.png"; sourceTree = "<group>"; };
+		67A7D20E1E47DA6300216B3E /* stackalt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stackalt@2x.png"; sourceTree = "<group>"; };
+		67BE34181E4B7A32005E6C01 /* PatternView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternView.swift; sourceTree = "<group>"; };
+		67BE341A1E4B7A8F005E6C01 /* subtle_white_mini_waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtle_white_mini_waves.png; sourceTree = "<group>"; };
+		67BE341C1E4B7CF5005E6C01 /* ep_naturalwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ep_naturalwhite.png; sourceTree = "<group>"; };
+		67BE341E1E4B7E40005E6C01 /* PatternTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternTableView.swift; sourceTree = "<group>"; };
+		67BE34221E4B7FFA005E6C01 /* proceed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "proceed@2x.png"; sourceTree = "<group>"; };
+		67BE34261E4C0983005E6C01 /* proceedwhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "proceedwhite@2x.png"; sourceTree = "<group>"; };
+		67BE34281E4C0A89005E6C01 /* nextaltwhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nextaltwhite@2x.png"; sourceTree = "<group>"; };
+		67BE342A1E4C0A93005E6C01 /* stopwhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopwhite@2x.png"; sourceTree = "<group>"; };
+		67BF716A1DAC8AA900282A14 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		67BF716C1DAC8AD600282A14 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		67BF716E1DADCCD700282A14 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		67C80BBF1E40EC200009E515 /* ImageViewWithGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithGradient.swift; sourceTree = "<group>"; };
+		67C80BC11E4189AE0009E515 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		67D7C2051E1339AB0068AEF9 /* ActivityInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityInfo.swift; sourceTree = "<group>"; };
+		84E3D94347FDB4F122AB2EA2 /* Pods_Cardiyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardiyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F88D3444AB72CE19B2580B /* Pods-Cardiyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardiyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cardiyo/Pods-Cardiyo.release.xcconfig"; sourceTree = "<group>"; };
+		DEB23A71025FC7D14A2B5127 /* Pods-Cardioh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardioh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cardioh/Pods-Cardioh.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6745651D1DAB09B900EB4C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676F35541F94185B00E424C3 /* CoreBluetooth.framework in Frameworks */,
+				67178CF41E0B2FB100C6DD14 /* AVFoundation.framework in Frameworks */,
+				677FA0061DF0033D0038212E /* MapKit.framework in Frameworks */,
+				0EC2EA551D1803D1AAEA1112 /* Pods_Cardiyo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67340E011E13A4430075804C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				676381571E33E77100F10673 /* Cardioh-Iconic */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		674565171DAB09B900EB4C57 = {
+			isa = PBXGroup;
+			children = (
+				674565221DAB09BA00EB4C57 /* Cardiyo */,
+				674565211DAB09BA00EB4C57 /* Products */,
+				B478469FA33207CDA07AE3FA /* Pods */,
+				8818685EF87EBA717021E101 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		674565211DAB09BA00EB4C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				674565201DAB09BA00EB4C57 /* Cardiyo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674565221DAB09BA00EB4C57 /* Cardiyo */ = {
+			isa = PBXGroup;
+			children = (
+				67340E011E13A4430075804C /* Assets */,
+				677FA0021DEFFE830038212E /* View Controllers */,
+				677FA0011DEFFE720038212E /* Storyboards */,
+				677F9FF61DED5E750038212E /* Models */,
+				674565231DAB09BA00EB4C57 /* AppDelegate.swift */,
+				6745652A1DAB09BA00EB4C57 /* Assets.xcassets */,
+				674565351DAC778A00EB4C57 /* Cardiyo.entitlements */,
+				6745652F1DAB09BA00EB4C57 /* Info.plist */,
+			);
+			path = Cardiyo;
+			sourceTree = "<group>";
+		};
+		676381571E33E77100F10673 /* Cardioh-Iconic */ = {
+			isa = PBXGroup;
+			children = (
+				67BE342A1E4C0A93005E6C01 /* stopwhite@2x.png */,
+				67BE34281E4C0A89005E6C01 /* nextaltwhite@2x.png */,
+				67BE34261E4C0983005E6C01 /* proceedwhite@2x.png */,
+				67BE341C1E4B7CF5005E6C01 /* ep_naturalwhite.png */,
+				67BE341A1E4B7A8F005E6C01 /* subtle_white_mini_waves.png */,
+				67A7D20E1E47DA6300216B3E /* stackalt@2x.png */,
+				67BE34221E4B7FFA005E6C01 /* proceed@2x.png */,
+				67A7D20C1E47D99C00216B3E /* nextalt@2x.png */,
+				676381581E33E77100F10673 /* add@2x.png */,
+				676381591E33E77100F10673 /* card@2x.png */,
+				6763815A1E33E77100F10673 /* clear.png */,
+				6763815B1E33E77100F10673 /* compose@2x.png */,
+				6763815C1E33E77100F10673 /* doughboy.jpg */,
+				6763815E1E33E77100F10673 /* fb.png */,
+				6763815F1E33E77100F10673 /* gear@2x.png */,
+				676381601E33E77100F10673 /* go@2x.png */,
+				676381611E33E77100F10673 /* happy@2x.png */,
+				676381621E33E77100F10673 /* heartempty@2x.png */,
+				676381631E33E77100F10673 /* heartfull@2x.png */,
+				676381641E33E77100F10673 /* home@2x.png */,
+				676381651E33E77100F10673 /* logo.png */,
+				676381661E33E77100F10673 /* msg@2x.png */,
+				676381671E33E77100F10673 /* persona@2x.png */,
+				676381681E33E77100F10673 /* placeholder.jpg */,
+				676381691E33E77100F10673 /* play@2x.png */,
+				6763816A1E33E77100F10673 /* save.jpg */,
+				6763816B1E33E77100F10673 /* stack@2x.png */,
+				6763816C1E33E77100F10673 /* test_logo_try3.png */,
+				67A7D2091E47D66400216B3E /* cancelalt@2x.png */,
+				67A7D2081E47D66400216B3E /* switchalt@2x.png */,
+				6763816D1E33E77100F10673 /* test_logo_try3@2x.png */,
+				6763816E1E33E77100F10673 /* test_logo_try3@3x.png */,
+				6763816F1E33E77100F10673 /* trash@2x.png */,
+			);
+			name = "Cardioh-Iconic";
+			path = "../../../Cardioh-Iconic";
+			sourceTree = "<group>";
+		};
+		677B40171F894B4800B30AD2 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				676381881E33E95300F10673 /* ActivityDetailsViewController.swift */,
+				6763818C1E33FE9700F10673 /* LikedByViewController.swift */,
+				67340E041E146D760075804C /* CardViewController.swift */,
+				6713DE521E1B03960038FE91 /* PersonalHistoryViewController.swift */,
+				67BF716A1DAC8AA900282A14 /* HistoryViewController.swift */,
+				677B401C1F89544A00B30AD2 /* SplitsViewController.swift */,
+			);
+			name = Feeds;
+			sourceTree = "<group>";
+		};
+		677B40181F894B5600B30AD2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				67C80BC11E4189AE0009E515 /* AboutViewController.swift */,
+				67821B571E0B5CC7007B1A05 /* ErrorViewController.swift */,
+				674565251DAB09BA00EB4C57 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		677B40191F894B6A00B30AD2 /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				674565361DAC80EA00EB4C57 /* MainViewController.swift */,
+				67BF716E1DADCCD700282A14 /* CameraViewController.swift */,
+				677FA0031DF000170038212E /* EndOfRunViewController.swift */,
+			);
+			name = Run;
+			sourceTree = "<group>";
+		};
+		677B401A1F894B8800B30AD2 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				6763818A1E33EEE700F10673 /* StatsViewController.swift */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+		677B401B1F894BAE00B30AD2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				67BF716C1DAC8AD600282A14 /* SettingsViewController.swift */,
+				676F35691F942A2A00E424C3 /* SensorListViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		677B40201F8980F500B30AD2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6763818E1E342AA700F10673 /* DetailTableCellView.swift */,
+				67340E1E1E148FFF0075804C /* CardTableCellView.swift */,
+				677B401E1F897F9700B30AD2 /* ChartTableCellView.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		677F9FF61DED5E750038212E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				677B40201F8980F500B30AD2 /* Cells */,
+				67C80BBF1E40EC200009E515 /* ImageViewWithGradient.swift */,
+				6713DE541E1B0E310038FE91 /* TextField.swift */,
+				67D7C2051E1339AB0068AEF9 /* ActivityInfo.swift */,
+				677F9FFA1DED62160038212E /* Location.swift */,
+				677F9FFC1DED62220038212E /* Run.swift */,
+				67BE34181E4B7A32005E6C01 /* PatternView.swift */,
+				67BE341E1E4B7E40005E6C01 /* PatternTableView.swift */,
+				677F9FFE1DEFF88A0038212E /* Model.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		677FA0011DEFFE720038212E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				674565271DAB09BA00EB4C57 /* Main.storyboard */,
+				6745652C1DAB09BA00EB4C57 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		677FA0021DEFFE830038212E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				677B401B1F894BAE00B30AD2 /* Settings */,
+				677B401A1F894B8800B30AD2 /* Stats */,
+				677B40191F894B6A00B30AD2 /* Run */,
+				677B40181F894B5600B30AD2 /* Login */,
+				677B40171F894B4800B30AD2 /* Feeds */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8818685EF87EBA717021E101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				676F35531F94185B00E424C3 /* CoreBluetooth.framework */,
+				67178CF31E0B2FB100C6DD14 /* AVFoundation.framework */,
+				677FA0051DF0033D0038212E /* MapKit.framework */,
+				1EBE0A4B0F6B983B9479E3F1 /* Pods_Cardioh.framework */,
+				84E3D94347FDB4F122AB2EA2 /* Pods_Cardiyo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B478469FA33207CDA07AE3FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224B777ED4C9E4F518E169EC /* Pods-Cardioh.debug.xcconfig */,
+				DEB23A71025FC7D14A2B5127 /* Pods-Cardioh.release.xcconfig */,
+				56438529F21EBC30422FC5DB /* Pods-Cardiyo.debug.xcconfig */,
+				91F88D3444AB72CE19B2580B /* Pods-Cardiyo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6745651F1DAB09B900EB4C57 /* Cardiyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674565321DAB09BA00EB4C57 /* Build configuration list for PBXNativeTarget "Cardiyo" */;
+			buildPhases = (
+				233FB4E09F4CF19EA58E24D7 /* [CP] Check Pods Manifest.lock */,
+				6745651C1DAB09B900EB4C57 /* Sources */,
+				6745651D1DAB09B900EB4C57 /* Frameworks */,
+				6745651E1DAB09B900EB4C57 /* Resources */,
+				6C161C447C7D18FA6A0DE745 /* [CP] Embed Pods Frameworks */,
+				D595D296FB2BEF772AD0FC85 /* [CP] Copy Pods Resources */,
+				6757ECE02313318800913D0F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardiyo;
+			productName = Cardioh;
+			productReference = 674565201DAB09BA00EB4C57 /* Cardiyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		674565181DAB09B900EB4C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Dmitry;
+				TargetAttributes = {
+					6745651F1DAB09B900EB4C57 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LRM98E7ZJM;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6745651B1DAB09B900EB4C57 /* Build configuration list for PBXProject "Cardiyo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 674565171DAB09B900EB4C57;
+			productRefGroup = 674565211DAB09BA00EB4C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6745651F1DAB09B900EB4C57 /* Cardiyo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6745651E1DAB09B900EB4C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676381841E33E77100F10673 /* test_logo_try3.png in Resources */,
+				676381741E33E77100F10673 /* doughboy.jpg in Resources */,
+				676381761E33E77100F10673 /* fb.png in Resources */,
+				676381861E33E77100F10673 /* test_logo_try3@3x.png in Resources */,
+				676381711E33E77100F10673 /* card@2x.png in Resources */,
+				6763817C1E33E77100F10673 /* home@2x.png in Resources */,
+				676381831E33E77100F10673 /* stack@2x.png in Resources */,
+				676381791E33E77100F10673 /* happy@2x.png in Resources */,
+				676381701E33E77100F10673 /* add@2x.png in Resources */,
+				676381771E33E77100F10673 /* gear@2x.png in Resources */,
+				67A7D20D1E47D99C00216B3E /* nextalt@2x.png in Resources */,
+				6763817A1E33E77100F10673 /* heartempty@2x.png in Resources */,
+				676381821E33E77100F10673 /* save.jpg in Resources */,
+				6763817B1E33E77100F10673 /* heartfull@2x.png in Resources */,
+				6763817D1E33E77100F10673 /* logo.png in Resources */,
+				6763817F1E33E77100F10673 /* persona@2x.png in Resources */,
+				676381801E33E77100F10673 /* placeholder.jpg in Resources */,
+				67BE34271E4C0983005E6C01 /* proceedwhite@2x.png in Resources */,
+				67A7D20A1E47D66400216B3E /* switchalt@2x.png in Resources */,
+				67A7D20B1E47D66400216B3E /* cancelalt@2x.png in Resources */,
+				67BE341D1E4B7CF5005E6C01 /* ep_naturalwhite.png in Resources */,
+				6745652E1DAB09BA00EB4C57 /* LaunchScreen.storyboard in Resources */,
+				6763817E1E33E77100F10673 /* msg@2x.png in Resources */,
+				676381781E33E77100F10673 /* go@2x.png in Resources */,
+				67BE34231E4B7FFA005E6C01 /* proceed@2x.png in Resources */,
+				67BE34291E4C0A89005E6C01 /* nextaltwhite@2x.png in Resources */,
+				67A7D20F1E47DA6300216B3E /* stackalt@2x.png in Resources */,
+				676381811E33E77100F10673 /* play@2x.png in Resources */,
+				676381721E33E77100F10673 /* clear.png in Resources */,
+				6745652B1DAB09BA00EB4C57 /* Assets.xcassets in Resources */,
+				67BE341B1E4B7A8F005E6C01 /* subtle_white_mini_waves.png in Resources */,
+				67BE342B1E4C0A93005E6C01 /* stopwhite@2x.png in Resources */,
+				676381871E33E77100F10673 /* trash@2x.png in Resources */,
+				674565291DAB09BA00EB4C57 /* Main.storyboard in Resources */,
+				676381851E33E77100F10673 /* test_logo_try3@2x.png in Resources */,
+				676381731E33E77100F10673 /* compose@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233FB4E09F4CF19EA58E24D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C161C447C7D18FA6A0DE745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cardiyo/Pods-Cardiyo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D595D296FB2BEF772AD0FC85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cardiyo/Pods-Cardiyo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6745651C1DAB09B900EB4C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677B401D1F89544A00B30AD2 /* SplitsViewController.swift in Sources */,
+				67BE34191E4B7A32005E6C01 /* PatternView.swift in Sources */,
+				674565371DAC80EA00EB4C57 /* MainViewController.swift in Sources */,
+				67BE341F1E4B7E40005E6C01 /* PatternTableView.swift in Sources */,
+				677B401F1F897F9700B30AD2 /* ChartTableCellView.swift in Sources */,
+				6763818D1E33FE9700F10673 /* LikedByViewController.swift in Sources */,
+				67C80BC21E4189AE0009E515 /* AboutViewController.swift in Sources */,
+				67340E1F1E148FFF0075804C /* CardTableCellView.swift in Sources */,
+				677F9FFD1DED62220038212E /* Run.swift in Sources */,
+				6713DE551E1B0E310038FE91 /* TextField.swift in Sources */,
+				674565261DAB09BA00EB4C57 /* LoginViewController.swift in Sources */,
+				677FA0041DF000170038212E /* EndOfRunViewController.swift in Sources */,
+				67BF716B1DAC8AA900282A14 /* HistoryViewController.swift in Sources */,
+				67821B581E0B5CC7007B1A05 /* ErrorViewController.swift in Sources */,
+				6713DE531E1B03960038FE91 /* PersonalHistoryViewController.swift in Sources */,
+				676381891E33E95300F10673 /* ActivityDetailsViewController.swift in Sources */,
+				67BF716D1DAC8AD600282A14 /* SettingsViewController.swift in Sources */,
+				677FA0001DEFF88A0038212E /* Model.xcdatamodeld in Sources */,
+				674565241DAB09BA00EB4C57 /* AppDelegate.swift in Sources */,
+				67BF716F1DADCCD700282A14 /* CameraViewController.swift in Sources */,
+				676F356A1F942A2A00E424C3 /* SensorListViewController.swift in Sources */,
+				67340E051E146D760075804C /* CardViewController.swift in Sources */,
+				67D7C2061E1339AB0068AEF9 /* ActivityInfo.swift in Sources */,
+				67C80BC01E40EC200009E515 /* ImageViewWithGradient.swift in Sources */,
+				6763818B1E33EEE700F10673 /* StatsViewController.swift in Sources */,
+				6763818F1E342AA700F10673 /* DetailTableCellView.swift in Sources */,
+				677F9FFB1DED62160038212E /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		674565271DAB09BA00EB4C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674565281DAB09BA00EB4C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6745652C1DAB09BA00EB4C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6745652D1DAB09BA00EB4C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		674565301DAB09BA00EB4C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		674565311DAB09BA00EB4C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674565331DAB09BA00EB4C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56438529F21EBC30422FC5DB /* Pods-Cardiyo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"$(inherited)",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Cardioh/Cardioh.entitlements;
+				DEVELOPMENT_TEAM = LRM98E7ZJM;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Cardioh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CameraManager\"",
+					"-framework",
+					"\"DynamicColor\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"FacebookCore\"",
+					"-framework",
+					"\"FacebookLogin\"",
+					"-framework",
+					"\"FacebookShare\"",
+					"-framework",
+					"\"GBHFacebookImagePicker\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"SkyFloatingLabelTextField\"",
+					"-framework",
+					"\"SwiftChart\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"TOMSMorphingLabel\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitry.Cardiyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+			};
+			name = Debug;
+		};
+		674565341DAB09BA00EB4C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F88D3444AB72CE19B2580B /* Pods-Cardiyo.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"$(inherited)",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Cardioh/Cardioh.entitlements;
+				DEVELOPMENT_TEAM = LRM98E7ZJM;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Cardioh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CameraManager\"",
+					"-framework",
+					"\"DynamicColor\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"FacebookCore\"",
+					"-framework",
+					"\"FacebookLogin\"",
+					"-framework",
+					"\"FacebookShare\"",
+					"-framework",
+					"\"GBHFacebookImagePicker\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"SkyFloatingLabelTextField\"",
+					"-framework",
+					"\"SwiftChart\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"TOMSMorphingLabel\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitry.Cardiyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6745651B1DAB09B900EB4C57 /* Build configuration list for PBXProject "Cardiyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674565301DAB09BA00EB4C57 /* Debug */,
+				674565311DAB09BA00EB4C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674565321DAB09BA00EB4C57 /* Build configuration list for PBXNativeTarget "Cardiyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674565331DAB09BA00EB4C57 /* Debug */,
+				674565341DAB09BA00EB4C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		677F9FFE1DEFF88A0038212E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				677F9FFF1DEFF88A0038212E /* Model.xcdatamodel */,
+			);
+			currentVersion = 677F9FFF1DEFF88A0038212E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 674565181DAB09B900EB4C57 /* Project object */;
+}
