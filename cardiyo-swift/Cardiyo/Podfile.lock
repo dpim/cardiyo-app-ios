@@ -45,20 +45,20 @@ PODS:
   - TOMSMorphingLabel (0.5.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
-  - AlamofireImage (~> 3.1)
-  - CameraManager (~> 3.0)
-  - DynamicColor (~> 3.2.1)
+  - Alamofire
+  - AlamofireImage
+  - CameraManager
+  - DynamicColor
   - FacebookCore
   - FacebookLogin
   - FacebookShare
   - GBHFacebookImagePicker
-  - PopupDialog (~> 0.5)
-  - SkyFloatingLabelTextField (~> 2.0.0)
+  - PopupDialog
+  - SkyFloatingLabelTextField
   - SwiftChart
   - SwiftyJSON
   - SwiftySensors
-  - TOMSMorphingLabel (~> 0.5)
+  - TOMSMorphingLabel
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   SwiftySensors: 3e4937edcab378092e7da7e3bdc77fdd3a6d8274
   TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
 
-PODFILE CHECKSUM: 661bad9e66eace610844d50b99d789e47b4e9b99
+PODFILE CHECKSUM: 9bbe0991dc8dd435580013acfcfdcf9d168db594
 
 COCOAPODS: 1.2.1
